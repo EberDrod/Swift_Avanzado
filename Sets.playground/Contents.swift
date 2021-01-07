@@ -21,4 +21,48 @@ if mySet.contains("Moure"){
 
 // Modificación
 
-// Acceso y Modificación
+mySet.remove("32")
+print(mySet)
+
+
+// Acceso y Modificación por indice
+
+if let index = mySet.firstIndex(of: "Peña"){
+    mySet.remove(at: index )
+}
+print(mySet)
+
+
+//Iteración
+
+mySet.insert("32")
+mySet.insert("Peña")
+mySet.insert("Eber")
+mySet.insert("Bienvenidos al curso de Swift")
+
+for myElement in  mySet{
+    print(myElement)
+}
+
+//OPeraciones de conjunto
+
+let myIntSet: Set = [1,2,3,4,5]
+let myIntSet2: Set = [0,2,3,6,7]
+
+//Intersección
+print(myIntSet.intersection(myIntSet2))
+
+// - Diferencia simétrica
+print(myIntSet.symmetricDifference(myIntSet2))
+
+// Unión
+print(myIntSet.union(myIntSet2))
+
+// Sustracción
+print(myIntSet.subtracting(myIntSet2))
+
+
+
+
+
+//Sección de diferentes collecciones
