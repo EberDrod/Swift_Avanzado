@@ -22,3 +22,10 @@ let myMapArray = myArray.map{(myInt) -> Int in
     return myInt + 10
 }
 print(myMapArray)
+
+let myStringMapArray = myArray.map{(myInt) -> String in
+    return "Este es el numero\(myInt)"
+}
+print(myStringMapArray)
+
+
