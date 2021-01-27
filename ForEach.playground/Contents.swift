@@ -17,6 +17,12 @@ let myDictionary = [5:"Cinco",
 
 let mySet: Set = [5,8,1,0,3,9,7,2,4,6]
 
-myArray .forEach{ (myInt) in
+//myArray .forEach{ (myInt) in
+  //  print(myInt)
+//}
+mySet.forEach { (myInt) in
     print(myInt)
+    
 }
+
+
